@@ -25,4 +25,11 @@ def test():
 test()
 -----------------------------
 ```
+另外一个很有用的功能是当错误发生的时候，仍然可以调用debugger,要少一个%分号。
+重新启动一个cell
+```
+%pixie_debugger
+```
+![](https://miro.medium.com/max/1840/1*neCV-jBrj28sD8yad3qE0w.png)
+Invoking the PixieDebugger post-mortem (after an exception has happened) is also possible with the line magic %pixie_debugger. (Notice the difference between the cell magic, which has two % symbols, and the line magic, which has only one and no argument.) This is useful to troubleshoot hard-to-reproduce errors.
 参考链接(https://medium.com/@chrieke/jupyter-tips-and-tricks-994fdddb2057)
