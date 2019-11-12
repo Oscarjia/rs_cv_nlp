@@ -1,5 +1,5 @@
-##jupyter 不能图形化debug 这点很烦人。
-####介绍PixieDebugger工具
+## jupyter 不能图形化debug 这点很烦人。
+#### 介绍一个PixieDebugger工具，可以图形化。
 使用方法：
 ```
 pip install pixiedust
