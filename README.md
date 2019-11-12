@@ -1,2 +1,2 @@
 # rs_cv_nlp 
-study memo.
+## study memo. pencil is better than good memory.
