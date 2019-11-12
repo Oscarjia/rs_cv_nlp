@@ -1,0 +1,11 @@
+##jupyter 不能图形化debug 这点很烦人。
+####介绍PixieDebugger工具
+使用方法：
+```
+pip install pixiedust
+安装好后，可以在相应的方法里面引入
+import pixiedust
+%%pixie_debugger or %%pixie_debugger -b method name
+def search(start,end,linedata,transferinfo):
+```
+参考链接(https://medium.com/@chrieke/jupyter-tips-and-tricks-994fdddb2057)
