@@ -18,3 +18,10 @@ Return the number of items of a sequence or mapping.
 ```python
 In [8]: abc??
 ```
+
+##### 3、自动补全用tab 按键
+```python
+In[9]  a[TAB]
+In[10] a.[TAB]
+In[11] a.co[TAB]
+```
